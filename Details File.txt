@@ -1,11 +1,11 @@
                             <View style={{marginTop: 22}}>
                               <View>
-                                <TouchableHighlight
+                                <TouchableOpacity style={styles.addButton}
                                   onPress={() => {
                                     this.setModalVisible(!this.state.modalVisible);
                                   }}>
                                   <Text style={styles.addButtonText}>X</Text>
-                                </TouchableHighlight>
+                                </TouchableOpacity>
                                 <Text style={styles.input}>{}//flight.FlightPswFlight.departure_airport+flight.FlightPswFlight.Airport.depart_airport_name+flight.FlightPswFlight.Airport.depart_airport_country}</Text>
 
                                 <Text style={styles.input}>{}//flight.FlightPswFlight.airline_code+"| Bags:"+flight.FlightPswFlight.Baggage}</Text>
