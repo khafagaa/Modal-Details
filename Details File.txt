@@ -1,0 +1,29 @@
+                            <View style={{marginTop: 22}}>
+                              <View>
+                                <TouchableHighlight
+                                  onPress={() => {
+                                    this.setModalVisible(!this.state.modalVisible);
+                                  }}>
+                                  <Text style={styles.addButtonText}>X</Text>
+                                </TouchableHighlight>
+                                <Text style={styles.input}>{}//flight.FlightPswFlight.departure_airport+flight.FlightPswFlight.Airport.depart_airport_name+flight.FlightPswFlight.Airport.depart_airport_country}</Text>
+
+                                <Text style={styles.input}>{}//flight.FlightPswFlight.airline_code+"| Bags:"+flight.FlightPswFlight.Baggage}</Text>
+                            
+                            
+                                <Text style={styles.input}>{}//flight.FlightPswFlight.arrival_airport+flight.FlightPswFlight.Airport.arrive_airport_name+flight.FlightPswFlight.Airport.arrive_airport_country}</Text>
+
+                                <Text style={styles.input}>Class:{} heeere//flight.FlightPswFlight.class_name}</Text>
+                                <Text style={styles.input}>Stops: {}//flight.FlightPswFlight.number_stops}</Text>
+                                <Text style={styles.input}>Distance:{}//flight.FlightPswFlight.distance} miles</Text>
+                              </View>
+                            </View>
+                          </Modal>
+
+                          <TouchableHighlight
+                            onPress={() => {
+                              this.setModalVisible(true);
+                            }}>
+                            <Text>Details</Text>
+                          </TouchableHighlight>
+                        </View>

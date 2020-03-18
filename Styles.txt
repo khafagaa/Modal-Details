@@ -1,0 +1,61 @@
+const styles = {
+  cardCnt: {
+    margin: fp(2),
+    borderWidth: 0,
+    shadowColor: 'rgba(0,0,0, 0.0)',
+    shadowOffset: { height: 0, width: 0 },
+    shadowOpacity: 0, //default is 1
+    shadowRadius: 0,//default is 1
+    elevation: 0,
+    backgroundColor:'#f3e5f5',
+    marginTop:5
+  },
+  cardTitle: {
+    fontSize: fp(3),
+    fontWeight: '500',
+    backgroundColor:'#e1bee7',
+    fontWeight: 'bold'
+  },
+  cardPrice: {
+    fontWeight:'bold',
+    marginRight:10
+  },
+  resultsContainer: {
+    marginTop: hp('2%'),
+    marginBottom: hp('6%')
+  },
+  scrollView:{
+    marginTop:0
+  },
+  addButton:{
+    position:'absolute',
+    zIndex:11,
+    left:20,
+    top:110,
+    backgroundColor:'#E91E63',
+    width:50,
+    height:50,
+    borderRadius:50,
+    alignItems:'center',
+    justifyContent:'center',
+    elevation:8
+},
+addButtonText:{
+  color:'#fff',
+  fontSize:35
+},
+input:{
+  width:460,
+  backgroundColor:'#80CBC4',
+  borderRadius:10,
+  fontSize:22,
+  color:"#212121",
+  borderTopRightRadius:55,
+  borderBottomLeftRadius:30,
+  paddingVertical:12,
+  fontStyle:'italic',
+  alignSelf:'flex-start',
+  marginVertical:20,
+  left:10,
+},
+}
